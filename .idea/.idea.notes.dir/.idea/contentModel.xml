@@ -8,6 +8,19 @@
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include" />
+      <e p="DataAccess" t="Include">
+        <e p="notesContext.cs" t="Include" />
+        <e p="Repositories" t="Include">
+          <e p="GenericRepository" t="Include">
+            <e p="GenericRepository.cs" t="Include" />
+            <e p="IGenericRepository.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Domains" t="Include">
+        <e p="Note.cs" t="Include" />
+        <e p="Task.cs" t="Include" />
+      </e>
       <e p="notes.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">

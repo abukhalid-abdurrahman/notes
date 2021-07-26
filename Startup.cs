@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using notes.DataAccess;
 
 namespace notes
 {
@@ -18,6 +19,7 @@ namespace notes
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<NotesContext>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
