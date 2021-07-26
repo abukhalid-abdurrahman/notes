@@ -23,17 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90c218be-5415-4359-948e-5dfe5a63a659" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Controllers/TasksController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/TasksService/ITasksService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/TasksService/TasksService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.notes.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.notes.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.notes.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.notes.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/notes.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/notes.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/notes.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/notes.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/notes.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/notes.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/notes.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/notes.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/notes.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,12 @@
         <option value="$PROJECT_DIR$/DataAccess/notesContext.cs" />
         <option value="$PROJECT_DIR$/Domains/Note.cs" />
         <option value="$PROJECT_DIR$/Domains/Task.cs" />
+        <option value="$PROJECT_DIR$/DataAccess/Repositories/GenericRepository/IGenericRepository.cs" />
+        <option value="$PROJECT_DIR$/DataAccess/Repositories/GenericRepository/GenericRepository.cs" />
+        <option value="$PROJECT_DIR$/Services/TasksService/ITaskService.cs" />
+        <option value="$PROJECT_DIR$/Services/TasksService/ITasksService.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/Controllers/TasksController.cs" />
       </list>
     </option>
   </component>
@@ -106,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627291651269</updated>
-      <workItem from="1627291694377" duration="1759000" />
+      <workItem from="1627291694377" duration="2677000" />
     </task>
     <servers />
   </component>
@@ -134,5 +135,9 @@
       <screen x="0" y="0" width="1603" height="873" />
     </state>
     <state x="214" y="277" key="#SQL_Dialects/0.0.1603.873@0.0.1603.873" timestamp="1627291932296" />
+    <state x="464" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1627294121204">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state x="464" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1603.873@0.0.1603.873" timestamp="1627294121204" />
   </component>
 </project>
