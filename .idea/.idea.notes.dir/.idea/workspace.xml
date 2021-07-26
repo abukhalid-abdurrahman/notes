@@ -23,9 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90c218be-5415-4359-948e-5dfe5a63a659" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controllers/TasksController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/TasksService/ITasksService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/TasksService/TasksService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/NotesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/NotesService/INotesService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/NotesService/NotesService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.notes.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.notes.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.notes.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.notes.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
@@ -51,8 +51,12 @@
         <option value="$PROJECT_DIR$/DataAccess/Repositories/GenericRepository/GenericRepository.cs" />
         <option value="$PROJECT_DIR$/Services/TasksService/ITaskService.cs" />
         <option value="$PROJECT_DIR$/Services/TasksService/ITasksService.cs" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Controllers/TasksController.cs" />
+        <option value="$PROJECT_DIR$/Services/NotesService.cs" />
+        <option value="$PROJECT_DIR$/Services/NotesService/INotesService.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/Controllers/NoteController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/NotesController.cs" />
       </list>
     </option>
   </component>
@@ -107,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627291651269</updated>
-      <workItem from="1627291694377" duration="2677000" />
+      <workItem from="1627291694377" duration="3905000" />
     </task>
     <servers />
   </component>
@@ -135,9 +139,13 @@
       <screen x="0" y="0" width="1603" height="873" />
     </state>
     <state x="214" y="277" key="#SQL_Dialects/0.0.1603.873@0.0.1603.873" timestamp="1627291932296" />
-    <state x="464" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1627294121204">
+    <state x="621" y="125" key="RiderGenerateDialog" timestamp="1627294640631">
       <screen x="0" y="0" width="1603" height="873" />
     </state>
-    <state x="464" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1603.873@0.0.1603.873" timestamp="1627294121204" />
+    <state x="621" y="125" key="RiderGenerateDialog/0.0.1603.873@0.0.1603.873" timestamp="1627294640631" />
+    <state x="464" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1627294807932">
+      <screen x="0" y="0" width="1603" height="873" />
+    </state>
+    <state x="464" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1603.873@0.0.1603.873" timestamp="1627294807932" />
   </component>
 </project>

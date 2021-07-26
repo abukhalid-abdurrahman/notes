@@ -8,6 +8,7 @@
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
+        <e p="NotesController.cs" t="Include" />
         <e p="TasksController.cs" t="Include" />
       </e>
       <e p="DataAccess" t="Include">
@@ -23,7 +24,6 @@
         <e p="Note.cs" t="Include" />
         <e p="Task.cs" t="Include" />
       </e>
-      <e p="Models" t="Include" />
       <e p="notes.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
@@ -41,6 +41,10 @@
         <e p="notes.sql" t="Include" />
       </e>
       <e p="Services" t="Include">
+        <e p="NotesService" t="Include">
+          <e p="INotesService.cs" t="Include" />
+          <e p="NotesService.cs" t="Include" />
+        </e>
         <e p="TasksService" t="Include">
           <e p="ITasksService.cs" t="Include" />
           <e p="TasksService.cs" t="Include" />

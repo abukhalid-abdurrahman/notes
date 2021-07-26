@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using notes.DataAccess;
+using notes.Services.NotesService;
 using notes.Services.TasksService;
 
 namespace notes
@@ -22,6 +23,7 @@ namespace notes
         {
             services.AddDbContext<NotesContext>();
             services.AddTransient<ITasksService, TasksService>();
+            services.AddTransient<INotesService, NotesService>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
